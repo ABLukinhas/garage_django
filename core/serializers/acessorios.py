@@ -1,8 +1,9 @@
-from rest_framework.serializer import ModelSerializer
+from core.views import acessorios
+from rest_framework.serializers import ModelSerializer
 
 from core.models import Acessorios
 
-class AcessorioSerializer(ModelSerializer):
+class AcessoriosSerializer(ModelSerializer):
     class meta:
-        model =  user
+        model =  Acessorios
         filds = '__all__'

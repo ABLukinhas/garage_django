@@ -1,5 +1,5 @@
 from .user import UserSerializer
-from .acessorios import AcessorioSerializer
+from .acessorios import AcessoriosSerializer
 from .cor import CorSerializer
 from .modelo import ModeloSerializer
-from .veiculo import VeiculoSerializer, VeiculoDetailSerializer
+from .veiculo import VeiculoSerializer
