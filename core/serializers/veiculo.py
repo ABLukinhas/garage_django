@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import Veiculo, Modelo, Cor, Acessorios
+from core.models import Veiculo, Modelo, Cor, Acessorio
 
 
 class VeiculoSerializer(ModelSerializer):
